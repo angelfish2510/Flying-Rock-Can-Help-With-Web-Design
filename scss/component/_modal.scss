@@ -6,8 +6,15 @@
 //     right: 0;
 //     background-image: if($enable-gradients, linear-gradient(270deg, rgba($black, .35), rgba($black, .1)), null);
 //   }
-  
 
+.btn-primary {
+    background-color: orangered;
+}
+
+.btn-primary a {
+    text-decoration:  none;
+    color: white;
+}
 
 
 // body {
