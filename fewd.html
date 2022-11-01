@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flying Rock Can Help with Web Design</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="https://yarn.pm/normalize.css"> -->
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -122,10 +122,10 @@
     <!-- End Back Side -->
 
     <!-- 2nd card test -->
-    <div class="col">
+    <div class="col-auto">
             
         <div class="card flipcard" id="project2">
-          <img src="..." class="card-img-top" alt="...">
+          <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body side-a">
 
             <h3 class="card-title">Responsive Layouts - Project 2</h3>
@@ -150,21 +150,26 @@
             </p>
         </div>
 
-          <div class="side-b">
-            <h3 class="card-title">Responsive Layouts - Project 2</h3>
-            <p class="card-text">
+          <div class="side-b container overflow-scroll">
+            <div class=" mw-100 mh-50 flex-column justify-content-start">
+                <h3 class="card-title">Responsive Layouts - Project 2</h3>
+                <p class="card-text">
                 <h5>What I enjoyed in this project:</h5>
-              <ul class="nodecor">
+                <ul class="nodecor">
                   <li>Seeing my creation come to life!</li>
                   <li>Digging into the html and css languages.</li>
                   <li>Working with cards</li>
                   <li>Designing color schemes for each page</li>
-              </ul>
+                </ul>
+                </p>
+            </div>
+              <div class=" mw-100 mh-50 flex-column justify-content-end">
+                <h5>View Responsive Layouts Project:</h5>
+                <p>View Code <a target="_blank" href="https://github.com/angelfish2510/portfolio_update_v1.git">Here</a></p>
+                <p>View Site <a target="_blank" href="https://angelfish2510.github.io/portfolio_update_v1/">Here</a></p>
+            `</div>
+            
 
-              <h5>View Responsive Layouts Project:</h5>
-              <p>View Code <a target="_blank" href="https://github.com/angelfish2510/portfolio_update_v1.git">Here</a></p>
-              <p>View Site <a target="_blank" href="https://angelfish2510.github.io/portfolio_update_v1/">Here</a></p>
-            </p>
 
 
           </div>
@@ -173,6 +178,42 @@
       </div>
 
     <!-- end 2nd card test -->
+
+
+<!-- START 2nd card retest -->
+<div class="col maincontainer">
+            
+  <div class="card" id="project2">
+    
+    <div class="front">
+
+      <h5 class="card-title">Responsive Layouts - Project 2</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    
+    </div>
+
+    <div class="back">
+
+      <h5>back side</h5>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- END 2nd card retest -->
+
+
+<div class="col">
+  <div class="card" id="project3">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Online Form - Project 3</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div>
+</div>
 
 
         <div class="col">
@@ -293,6 +334,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="js/fewd.js"></script>
   </body>
 </html>

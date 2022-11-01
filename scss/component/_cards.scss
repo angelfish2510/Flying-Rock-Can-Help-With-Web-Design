@@ -1,75 +1,54 @@
-// testing flip
+// retest using js
 
-.col {
-    perspective: 700px;
+.maincontainer {
+    // position: absolute;
+    // width: 250px;
+    // height: 320px;
+    background: none;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+}
+
+.card {
+    position: relative;
+    // width: 100%;
+    // height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+
+.front {
+    position: absolute;
+    // width: 100%;
+    // height: 100%;
+    backface-visibility: hidden;
+    background: yellow;
+    color: black;
     text-align: center;
 }
 
-.side-a {
-    transform: rotateY(0deg);
-}
-
-.side-b {
-    z-index: 100;
-    transform: rotateY(180deg);
+.back {
     position: absolute;
-// stick "view project" to bottom of card
-    // display: flex;
-    // flex-direction: column;
-    // justify-items: space-between;
+    // width: 100%;
+    // height: 100%;
+    backface-visibility: hidden;
+    background: purple;
+    color: white;
+    text-align: center;
+    transform: rotateY(180deg);
 }
-
-
-
-.flipcard:hover {
-transform: rotateY(-180deg);
-
-}
-
-.nodecor {
-    list-style: none;
-}
-
-
-
-
-// .flipcard:hover .side-a {
-//     transform: rotateY(-180deg);
-
-// }
-
-// .flipcard:hover .side-b {
-//     transform: rotateY(0deg);
-// }
 
 .flipcard {
-    transition: transform 1s ease-out;
-    transform-style: preserve-3d;
-    // display: flex;
-    // flex-direction: row;
+    transform: rotateY(180deg);
 }
 
-.side-a,
-.side-b {
-    backface-visibility: hidden;
-    width: 100%;
-    height: 100%;
-}
+// my previous code
 
-#project2 {
-    background-color: pink;
-}
-// .card {
-//     display: flex;
-//     padding: 20px 5px;
-//     border: 2.5px solid $base-font-color;
-//     border-radius: 12px;
-//     background-color: $searchbar-color;
-//     margin: 1em;
-//     align-items: center;
-//     // width: 425px;
-//     // overflow: visible;
-// }
+// 
+
+// end my previous code 
+
 
 // .avatar {
 //     border-radius: 50%;
