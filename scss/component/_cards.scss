@@ -1,21 +1,25 @@
 // 3rd test
 
-// #project3 {
-//     border-radius: 50%;
-//     overflow: hidden;
+.fewdgrid {
+    margin: 10px;
+}
+
+// .card {
+//     border-radius: 5rem;
 // }
+
 
 .flip-box {
     transform-style: preserve-3d;
     perspective: 1000px;
     cursor: pointer;
-    margin-top: 50px;
+    margin: auto;
 }
 
 .flip-box-front,
 .flip-box-back {
-    background-size: cover;
-    background-position: center;
+    // background-size: cover;
+    // background-position: center;
     border-radius: 8px;
     min-height: 475px;
     min-width: 100%;
@@ -41,6 +45,7 @@
     width: 100%;
     transform: rotateY(180deg);
     transform-style: preserve-3d;
+    text-align: center;
 }
 
 .flip-box:hover .flip-box-back {
@@ -48,17 +53,17 @@
     transform-style: preserve-3d;
 }
 
-.flip-box .inner {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    padding: 60px;
-    outline: 1px solid transparent;
-    perspective: inherit;
-    z-index: 2;
-    transform: translateY(-50%)translateZ(60px) scale (.94);
-    top: 50%;
-}
+// .flip-box .inner {
+//     position: absolute;
+//     left: 0;
+//     width: 100%;
+//     padding: 60px;
+//     outline: 1px solid transparent;
+//     perspective: inherit;
+//     z-index: 2;
+//     transform: translateY(-50%)translateZ(60px) scale (.94);
+//     top: 50%;
+// }
 
 .flip-box-header{
     font-size: 30px;
@@ -127,40 +132,23 @@
     transform: rotateY(180deg);
 }
 
-// my previous code
-
-// 
-
-// end my previous code 
 
 
-// .avatar {
+// @media (min-width: 1020px) {
+
+// #project1,
+// #project2,
+// #project3,
+// #project4,
+// #project5,
+// #project6,
+// #project7,
+// #project8 {
 //     border-radius: 50%;
-//     padding: 1em;
-//     background-color: $searchbar-color;
+//     overflow: hidden;
+//     margin: auto;
+//     padding: 150px;
+//     font-size: .9rem;
+
 // }
-
-// .text-container {
-//     padding-left: 30px;
-//     background-color: $searchbar-color;
-
-//     p {
-//         color: $base-font-color;
-//         line-height: .8em;
-//     }
-
-//     h2 {
-//         color: $base-font-color;
-//     }
-// }
-
-// .name,
-// .email,
-// .address,
-// .phone,
-// .birthday,
-// .avatar,
-// .modal-content,
-// .modal-close {
-//     background-color: $searchbar-color;
 // }
