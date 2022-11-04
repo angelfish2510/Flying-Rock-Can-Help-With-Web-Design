@@ -442,6 +442,10 @@ h1 {
 .upper {
   margin-left: 2em;
 }
+.upper h3 {
+  margin-bottom: 2em;
+  text-align: center;
+}
 
 .lower {
   margin-right: 5em;
