@@ -375,6 +375,44 @@ h1 {
     font-size: 4rem;
   }
 }
+.fewd-btn {
+  background-color: #1A4314;
+  color: #B2D2A4;
+}
+.fewd-btn a {
+  text-decoration: none;
+  color: #b1d2a3;
+}
+
+.fewd-btn:hover {
+  background-color: #B2D2A4;
+  color: #1A4314;
+}
+.fewd-btn:hover a {
+  text-decoration: none;
+  color: #1A4314;
+}
+
+.personalproj-btn {
+  background-color: #1A4314;
+  color: #B2D2A4;
+}
+
+.personalproj-btn:hover {
+  background-color: #B2D2A4;
+  color: #1A4314;
+}
+
+.nonprofits-btn {
+  background-color: #1A4314;
+  color: #B2D2A4;
+}
+
+.nonprofits-btn:hover {
+  background-color: #B2D2A4;
+  color: #1A4314;
+}
+
 .fewdgrid {
   margin: 10px;
 }
@@ -492,15 +530,6 @@ h1 {
 
 .card-title {
   margin: auto;
-}
-
-.btn-primary {
-  background-color: orangered;
-}
-
-.btn-primary a {
-  text-decoration: none;
-  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

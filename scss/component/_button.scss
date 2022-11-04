@@ -1,0 +1,40 @@
+.fewd-btn {
+    background-color: #1A4314;
+    color: #B2D2A4;
+
+    a {
+        text-decoration: none;
+        color: hsl(102, 34%, 73%);
+    }
+   
+}
+
+.fewd-btn:hover {
+    background-color: #B2D2A4;
+    color: #1A4314;
+   
+    a {
+        text-decoration: none;
+        color: #1A4314;
+    }
+}
+
+.personalproj-btn {
+    background-color: #1A4314;
+    color: #B2D2A4;
+}
+
+.personalproj-btn:hover {
+    background-color: #B2D2A4;
+    color: #1A4314;
+}
+
+.nonprofits-btn {
+    background-color: #1A4314;
+    color: #B2D2A4;
+}
+
+.nonprofits-btn:hover {
+    background-color: #B2D2A4;
+    color: #1A4314;
+}

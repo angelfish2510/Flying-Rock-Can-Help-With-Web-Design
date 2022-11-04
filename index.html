@@ -60,17 +60,20 @@
 
 
 
-      <!-- grid to display 3 categories of websites -->
-      <div class="container text-center">
-        <div class="row">
-          <!-- each div to have modal with carousel -->
+<!-- grid to display 3 categories of websites -->
+<div class="container text-center mt-5">
+<div class="row">
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  FEWD button
-</button>
+  <!-- each div to have modal with carousel -->
 
-<!-- Modal -->
+<!-- Button trigger modal FEWD -->
+<div class="col-sm mt-2 mb-5" id="fewd">
+  <button type="button" class="btn fewd-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Front End Web Design Tech Degree Projects
+  </button>
+</div>
+
+<!-- Modal FEWD -->
 <div class="modal fade col-sm mt-5 mb-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
@@ -118,39 +121,99 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary"><a href="fewd.html">See All FEWD Projects</a>></button>
+        <button type="button" class="btn fewd-btn"><a href="fewd.html">See All FEWD Projects</a>></button>
       </div>
     </div>
   </div>
 </div>
 
+<!-- End Modal FEWD -->
+</div>
+<!-- Button trigger modal Personal Projects -->
+<div class="col-sm mt-2 mb-5" id="Personal">
+  <button type="button" class="btn personalproj-btn" data-bs-toggle="modal" data-bs-target="#personalModal">
+  Personal Projects
+  </button>
+</div>
+<!-- Modal Personal Projects -->
+<div class="modal fade col-sm mt-5 mb-5" id="personalModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Personal Projects</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="carouselPersonalControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a target="_blank" href="https://angelfish2510.github.io/flyingrockcanhelp/index.html"><img src="images/fr.png" class="d-block w-100" alt="screenshot from Flying Rock Can Help business homepage"></a>
+            </div>
+            <div class="carousel-item"> 
+              <a target="_blank" href="https://angelfish2510.github.io/Remote-Education/index.html"><img src="images/remoteeducation.png" class="d-block w-100" alt="screenshot Remote Education website"></a>  
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselPersonalControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselPersonalControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn fewd-btn"><a href="personalprojects.html">See All Personal Projects</a>></button>
+      </div>
+    </div>
+  </div>
 
-          <!-- <div class="col-sm mt-5 mb-5" id="FEWD">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              FEWD Tech Degree Projects
-            </button> -->
+<!-- End Personal Modal -->
+</div>
 
-            <!-- Vertically centered scrollable modal
-            <div class="modal" id="myInput" tabindex="-1">
-              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title">FEWD Tech Degee Projects</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>Modal body text goes here.</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                  </div>
-                </div>
+  <!-- Button trigger modal Nonprofits -->
+  <div class="col-sm mt-2 mb-5" id="Nonprofits">
+    <button type="button" class="btn nonprofits-btn" data-bs-toggle="modal" data-bs-target="#nonprofitModal">Nonprofits</button>
+  </div>
+  <!-- Modal Nonprofits -->
+  <div class="modal fade col-sm mt-5 mb-5" id="nonprofitModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Nonprofits</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carouselNonprofitControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a target="_blank" href="http://accesstoopportunity.org/"><img src="images/ato.png" class="d-block w-100" alt="screenshot Access to Opportunity website"></a>  
+              </div>  
+              <div class="carousel-item"> 
+                <a target="_blank" href="https://www.fullbasketbelize.org/"> <img src="images/fbb.png" class="d-block w-100" alt="screenshot Full Basket Belize website"></a>  
               </div>
             </div>
-          </div> -->
-            <div class="col-sm mt-2 mb-5" id="Personal">Personal Projects</div>
-            <div class="col-sm mt-2 mb-5" id="Nonprofits">Nonprofits</div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselNonprofitControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselNonprofitControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn fewd-btn"><a href="nonprofitprojects.html">See All Nonprofit Projects</a>></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
           <!-- </div> -->
     
         <div class="row">
