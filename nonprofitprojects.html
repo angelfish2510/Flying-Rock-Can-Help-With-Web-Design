@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flying Rock Can Help with Web Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://yarn.pm/normalize.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Flying Rock Websites</a>
+          <img src="images/ruru.jpg" alt="placeholder image of stuffed panda named Ruru" width="30" height="24">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nonprofits
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#ato">Access to Opportunity</a></li>
+                <li><a class="dropdown-item" href="#fbb">Full Basket Belize</a></li>
+            </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <header class="container text-sm-center header has-gb-img p-5">
+      <img class="bg-img img-fluid opacity-75" src="images/backgroundimage.jpg" alt="small beach scene in Corozal, Belize">
+      <h1>Flying Rock Can Help with Web Design</h1>
+    </header> -->
+
+    <div class="header" style="background-image: url('./images/backgroundimage.jpg');">
+      <div class="color-overlay d-flex justify-content-center align-items-center">
+        <h1>Flying Rock Can Help with Web Design</h1>
+      </div>
+    </div>
+
+    <main class="fewdgrid">
+
+
+
+      <!-- grid to display cards for each of 2 websites -->
+       <!-- each card to flip one side description, one side image, both sides should have link -->
+
+      <div class="row row-cols-1 row-cols-md-2 g-5">
+
+        <!-- first card -->
+        <div class="col">
+            
+          <div class="card h-100" id="ato">
+            <div class="card-body flip-box">
+              <div class="flip-box-front">
+                <h3 class="card-title">Access to Opportunity</h3>
+                <p class="card-text">
+                  <h5>Background Information:</h5>
+                  <p>
+                   Early in my coding education I paused to take the opportunity to work with the board of this nonprofit to design and implmement their website.  This process included:
+                    <ul>
+                        <li>Initial and follow up meetings with board to identify content, flow, feel of desired website</li>
+                        <li>Gathering images, details, etc. for the content</li>
+                        <li>Collaborate with graphic designer on new logo</li>
+                        <li>Creating the Access to Opportunity website to reflect the nature and mission of the organization</li>
+                        <li>Allow new contacts to understand the structure and opportunities available</li>
+                    </ul> 
+                  </p>
+              </div>
+              <div class="flip-box-back">
+                <div class="upper">
+                  <h3 class="card-title">Access to Opportunity</h3>
+                  <p class="card-text">
+                    <h5>Ongoing maintenance required as follows:</h5>
+                    <ul class="nodecor">
+                      <li>Decrease text on page - currently very content heavy</li>
+                      <li>Update profiles for participants</li>
+                      <li>Update links and bios for partners</li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="lower">
+                  <h5>View Access to Opportunity:</h5>
+                  <p><a target="_blank" href="https://github.com/angelfish2510/ato_live.git">View Code </a></p>
+                  <p><a target="_blank" href="http://accesstoopportunity.org/">View Site</a></p>        
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- End 1st card -->
+
+    <!-- 2nd card  -->
+    <div class="col">
+            
+      <div class="card h-100" id="fbb">
+        <div class="card-body flip-box">
+          <div class="flip-box-front">
+            <h3 class="card-title">Full Basket Belize</h3>
+            <p class="card-text">
+                <h5>Background Information:</h5>
+                <p>
+                  I have been serving on the board for the nonprofit Full Basket Belize as Publicity Chair.  One responsibility in this role has been maintaining and updating the website.  Prior to my involvement the website was created using Wordpress so much of the structure is not my own.  I have included this site because:
+                  <ul>
+                      <li>The organization is incredibly impactful to individuals and communities in Belize</li>
+                      <li>I have enjoyed the challenge of working within Wordpress limitations - and it has reiterated that I much prefer building from scratch!</li>
+                      <li>I was able to add some great features including temporary pages for specific fundraisers and a history of newsletters</li>
+                  </ul> 
+                </p>
+  
+              </div>
+            <div class="flip-box-back">
+              <div class="upper">
+                <h3 class="card-title">Full Basket Belize</h3>
+                <p class="card-text">
+                  <!-- <h5>While this is a rudimentary site lacking bells and whistles, I include it to demonstrate:</h5>
+                  <ul class="nodecor">
+                    <li>Passion for utilizing the skills I had learned at that time</li>
+                    <li>Creative application of knowledge for a world full of unknowns</li>
+                    <li>Because it was fun</li>
+                  </ul> -->
+                </p>
+              </div>
+              <div class="lower">
+                <h5>View Full Basket Belize:</h5>
+                <!-- <p><a target="_blank" href="https://github.com/angelfish2510/Remote-Education.git">View Code </a></p> -->
+                <p><a target="_blank" href="https://www.fullbasketbelize.org/">View Site</a></p>        
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- end 2nd card  -->
+
+</div>
+
+    </main>
+
+
+
+    <footer>
+      <!-- Link to resume, contact info, menu, etc. -->
+      <nav class="navbar sticky-bottom navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Flying Rock Websites</a>
+            <img src="images/ruru.jpg" alt="placeholder image of stuffed panda named Ruru" width="30" height="24">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Website Library
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#FEWD">FEWD Tech Degree Projects</a></li>
+                  <li><a class="dropdown-item" href="#Personal">Personal Projects</a></li>
+                  <li><a class="dropdown-item" href="#Nonprofits">Nonprofits</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#workbio">About Flying Rock</a></li>
+                  <li><a class="dropdown-item" href="#personalbio">About Lisa</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/fewd.js"></script>
+  </body>
+</html>
