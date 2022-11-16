@@ -374,6 +374,17 @@ h1 {
   h1 {
     font-size: 4rem;
   }
+
+  .contactme {
+    padding: 0px 60px 0px 30px;
+  }
+  .contactme img {
+    margin-right: 30px;
+  }
+
+  .graphic {
+    padding-left: 20px;
+  }
 }
 .fewd-btn {
   background-color: #1A4314;
