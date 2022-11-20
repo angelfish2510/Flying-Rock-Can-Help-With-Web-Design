@@ -61,16 +61,16 @@
 
 
 <!-- grid to display 3 categories of websites -->
-<div class="container text-center mt-5">
-<div class="row">
+<div class="container-fluid text-center mt-5">
+<div class="row justify-content-center">
 
   <!-- each div to have modal with carousel -->
 
 <!-- Button trigger modal FEWD -->
-<div class="col-sm mt-2 mb-5" id="fewd">
-  <button type="button" class="btn fewd-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<div class="col-6 col-md col-xl-2 mt-2 mb-5 m-xl-5 modal-link" id="fewd">
+  <button type="button" class="btn fewd-btn mainpage-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
     <img src="svgs/treetriangle.svg" alt="triangle including multiple trees">
-    Front End Web Design Tech Degree Projects
+    <p>Front End Web Design Tech Degree Projects</p>
   </button>
 </div>
 
@@ -129,12 +129,12 @@
 </div>
 
 <!-- End Modal FEWD -->
-</div>
+
 <!-- Button trigger modal Personal Projects -->
-<div class="col-sm mt-2 mb-5" id="Personal">
-  <button type="button" class="btn personalproj-btn" data-bs-toggle="modal" data-bs-target="#personalModal">
+<div class="col-6 col-md col-xl-2 mt-2 mb-5 m-4 m-xl-5 modal-link" id="Personal">
+  <button type="button" class="btn personalproj-btn mainpage-btn" data-bs-toggle="modal" data-bs-target="#personalModal">
     <img src="svgs/rabbit.svg" alt="drawing of brown rabbit washing its face"> 
-    Personal Projects
+    <p>Personal Projects</p>
   </button>
 </div>
 <!-- Modal Personal Projects -->
@@ -142,7 +142,7 @@
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Personal Projects</h1>
+        <h1 class="modal-title fs-5" id="personalModalLabel">Personal Projects</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -171,15 +171,16 @@
       </div>
     </div>
   </div>
+  </div>
 
 <!-- End Personal Modal -->
-</div>
+
 
   <!-- Button trigger modal Nonprofits -->
-  <div class="col-sm mt-2 mb-5" id="Nonprofits">
-    <button type="button" class="btn nonprofits-btn" data-bs-toggle="modal" data-bs-target="#nonprofitModal">
+  <div class="col-6 col-md col-xl-2 mt-2 mb-5 m-4 m-xl-5 modal-link" id="Nonprofits">
+    <button type="button" class="btn nonprofits-btn mainpage-btn" data-bs-toggle="modal" data-bs-target="#nonprofitModal">
       <img src="svgs/smallworld.svg" alt="image of planet with colorful humans creating a ring border on surface of earth"> 
-      Nonprofits
+      <p>Nonprofits</p>
     </button>
   </div>
   <!-- Modal Nonprofits -->
@@ -187,7 +188,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Nonprofits</h1>
+          <h1 class="modal-title fs-5" id="nonprofitModalLabel">Nonprofits</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -218,18 +219,15 @@
     </div>
   </div>
 
-
-          <!-- </div> -->
-    
+          </div>
+ </div>   
         <div class="row">
           <div class="col-sm" id="workbio">About Flying Rock</div>
-        </div>
-
-        <div class="row">
           <div class="col-sm" id="personalbio">About Lisa</div>
         </div>
 
-    </div>
+
+  </div>
 
     </main>
 

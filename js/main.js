@@ -5,5 +5,5 @@ const myInput = document.getElementById('myInput')
 //   myModal.focus()
 // })
 
-$modal-fade-transform: scale(.8)
+// $modal-fade-transform: scale(.8)
   
