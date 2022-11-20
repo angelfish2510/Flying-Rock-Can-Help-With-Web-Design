@@ -1,3 +1,32 @@
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+}
+@keyframes bounce {
+  50% {
+    transform: scale(1.2);
+  }
+}
+.maintree {
+  animation: grow 8s ease-out backwards;
+}
+
+#fewd:hover .tinytrees {
+  animation: bounce 1s 0.5s;
+}
+
+@keyframes {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
 * {
   font-family: "Lato", sans-serif;
 }
@@ -442,7 +471,7 @@ h1 {
 .mainpage-btn {
   overflow: hidden;
 }
-.mainpage-btn img {
+.mainpage-btn svg {
   padding: 14px;
 }
 

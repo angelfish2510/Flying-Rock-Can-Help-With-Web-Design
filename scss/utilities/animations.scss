@@ -1,0 +1,39 @@
+// tree svg
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+    }
+    30% {
+        transform: scale(1.1);
+    }
+    60% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes bounce {
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.maintree {
+    animation: grow 8s ease-out backwards;
+}
+
+#fewd:hover {
+
+    .tinytrees {
+    animation: bounce 1s .5s;
+}
+}
+
+
+// rabbit svg
+
+@keyframes {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
