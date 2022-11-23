@@ -1,0 +1,1 @@
+const rabbit = document.querySelectorAll('.backpaw');

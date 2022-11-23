@@ -1,18 +1,15 @@
 // welcome notification
 
-const topbackground = document.getElementById("frheading");
+const mainPageButtons = document.querySelectorAll('modal-link');
 
-function welcomeNotification() {
-    const notification = new Notification("Welcome to the world of Flying Rock!", {
-        body: "Thank you for your interest in my work.  I am very much looking forward to contributing to your next project.",
-        icon: "/images/ruru.jpg"
-    });
-}
+// function addClass() {
+//     projectButtons.classList.add("btnhover")
+// }
 
-topbackground.addEventListner('click', welcomeNotification);
+// mainPageButtons.addEventListener('mouseover', addClass);
 
 
-
+const test = document.querySelectorAll('h1');
 
 
 
