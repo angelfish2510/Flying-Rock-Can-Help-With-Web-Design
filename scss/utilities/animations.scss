@@ -32,8 +32,83 @@
 
 // rabbit svg
 
-@keyframes {
+@keyframes offset {
     100% {
         stroke-dashoffset: 0;
     }
 }
+
+@keyframes colorfade {
+
+    0% {
+        fill: #e0d6cc;
+    }
+
+    50% {
+        fill: #713f00;
+    }
+
+    100% {
+        fill: #e5d3b3;
+    }
+
+}
+
+.rabbit-outline {
+
+    stroke: #713F00;
+    stroke-width: 15;
+    stroke-dasharray: 1837;
+    stroke-dashoffset: 1837;
+
+    animation: offset 5s linear forwards;
+    animation-delay: 3s;
+}
+
+#personal:hover {
+
+    .rabbit-inner-ear {
+    animation: colorfade 7s linear infinite;
+}
+}
+
+// smallworld svg
+
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+    }
+    30% {
+        transform: scale(1.5);
+    }
+    70% {
+        transform: scale(0.97);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+
+.humans {
+    & > path{
+        animation: grow 6s ease-out backwards;
+        animation-delay: 5s;
+    }
+}
+
+#nonprofits:hover {
+.earth-land {
+    animation: rotate 15s linear infinite;
+    transform-origin: 50% 50%;
+}
+}
+
