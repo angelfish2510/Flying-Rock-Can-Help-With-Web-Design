@@ -1,8 +1,4 @@
-const rabbit = document.querySelectorAll('.backpaw');
-// console.log(rabbit);
-
-// let grey = "hello";
-// console.log(grey); 
+// header text animation and shrink less significant text
 
 const hText = document.querySelector('.headerTextAnimate');
 const stringHText = hText.textContent;
@@ -36,15 +32,8 @@ function complete(){
     timer = null;
 }
 
-// function smallText() {
-//     const span = text.querySelectorAll('span')[char];
-//     // for span[i]
-//         if (char > 11 && char < 25) {
-//             splitText[char].style.fontsize = ".2em";
-//         }
-// }
 
-// smallText();
+// alerts on first hover of main page cards
 
 const cardHoverFEWD = document.getElementById("fewd");
 const cardHoverPersonal = document.getElementById("personal");
