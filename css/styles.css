@@ -441,6 +441,19 @@ h1 {
   padding: 0px 5px;
 }
 
+span {
+  opacity: 0;
+  transition: all 1.9s ease;
+}
+
+span.letterfade {
+  opacity: 1;
+}
+
+span.smallfont {
+  font-size: 0.35em;
+}
+
 .color-overlay {
   position: absolute;
   width: 100%;

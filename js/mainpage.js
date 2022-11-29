@@ -4,6 +4,48 @@ const rabbit = document.querySelectorAll('.backpaw');
 // let grey = "hello";
 // console.log(grey); 
 
+const hText = document.querySelector('.headerTextAnimate');
+const stringHText = hText.textContent;
+const splitText = stringHText.split("");
+
+hText.textContent = "";
+
+for(let i = 0; i < splitText.length; i++) {
+    hText.innerHTML += "<span>" + splitText[i] + "</span>";
+}
+
+let char = 0;
+let timer = setInterval(beautifyHeader, 50);
+
+
+function beautifyHeader() {
+    const span = hText.querySelectorAll('span')[char];
+    span.classList.add('letterfade');
+    char++
+    if (char > 12 && char < 26) {
+        span.classList.add('smallfont');
+    }
+    else if(char === splitText.length) {
+        complete();
+        return;
+    }
+}
+
+function complete(){
+    clearInterval(timer);
+    timer = null;
+}
+
+// function smallText() {
+//     const span = text.querySelectorAll('span')[char];
+//     // for span[i]
+//         if (char > 11 && char < 25) {
+//             splitText[char].style.fontsize = ".2em";
+//         }
+// }
+
+// smallText();
+
 const cardHoverFEWD = document.getElementById("fewd");
 const cardHoverPersonal = document.getElementById("personal");
 const cardHoverNonprofits = document.getElementById("nonprofits");
