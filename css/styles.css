@@ -669,4 +669,18 @@ span.smallfont {
   margin: auto;
 }
 
+.about {
+  display: flex;
+  width: 100vw;
+}
+
+#workbio,
+#personalbio {
+  padding: 14px;
+  margin: 34px;
+  background-color: #B2D2A4;
+  color: #1a4314;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=styles.css.map */

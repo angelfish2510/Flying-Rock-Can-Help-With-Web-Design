@@ -162,3 +162,19 @@
 
 // }
 // }
+
+.about {
+    display: flex;
+    width: 100vw;
+}
+
+#workbio,
+#personalbio {
+    // align-items: space-around;
+    // justify-items: space-between;
+    padding: 14px;
+    margin: 34px;
+    background-color: #B2D2A4;
+    color: #1a4314;
+    overflow: hidden;
+}
