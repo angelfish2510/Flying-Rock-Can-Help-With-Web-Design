@@ -43,13 +43,42 @@ function complete(){
 
 
 // border change on hover? click? for FEWD page
+// use "this" as part of event listener? 
 
-const cardsFEWD = document.querySelectorAll('.card');
 
 function borderChange() {
-    cardsFEWD.style.borderColor("purple");
+    this.style.border = "12px dashed #3c1361";
 }
 
-cardsFEWD.addEventListener("onclick", borderChange);
+const project1Card = document.getElementById('project1');
+const project2Card = document.getElementById('project2');
+const project3Card = document.getElementById('project3');
+const project4Card = document.getElementById('project4');
+const project5Card = document.getElementById('project5');
+const project6Card = document.getElementById('project6');
+const project7Card = document.getElementById('project7');
+const project8Card = document.getElementById('project8');
 
-// use "this" as part of event listener?
+// function borderChange(e) {
+//     this.style.borderColor = "purple";
+// }
+
+project1Card.addEventListener("click", borderChange);
+project2Card.addEventListener("click", borderChange);
+project3Card.addEventListener("click", borderChange);
+project4Card.addEventListener("click", borderChange);
+project5Card.addEventListener("click", borderChange);
+project6Card.addEventListener("click", borderChange);
+project7Card.addEventListener("click", borderChange);
+project8Card.addEventListener("click", borderChange);
+
+
+
+// ask on Slack if this is something that could work with tweaks....  and/or iterate through the above
+
+// document.addEventListener('click', (event)=> {
+//     if (event.target.parentNode.tagName === "DIV") {
+//         borderChange();
+//         }
+    
+// })
