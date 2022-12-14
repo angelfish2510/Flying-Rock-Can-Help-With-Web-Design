@@ -671,16 +671,23 @@ span.smallfont {
 
 .about {
   display: flex;
-  width: 100vw;
+  width: 90vw;
+  overflow: hidden;
+  margin: auto;
 }
 
 #workbio,
 #personalbio {
-  padding: 14px;
-  margin: 34px;
+  margin-bottom: 34px;
+  padding: 24px;
   background-color: #B2D2A4;
   color: #1a4314;
-  overflow: hidden;
+}
+#workbio h3,
+#personalbio h3 {
+  color: #13300f;
+  font-weight: bolder;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
