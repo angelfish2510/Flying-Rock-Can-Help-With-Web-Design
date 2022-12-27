@@ -480,6 +480,11 @@ span.smallfont {
   .graphic {
     padding-left: 20px;
   }
+
+  .phoneandemail {
+    display: flex;
+    flex-direction: row;
+  }
 }
 .fewd-btn {
   background-color: #1A4314;
