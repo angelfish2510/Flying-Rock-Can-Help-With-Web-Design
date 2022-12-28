@@ -35,9 +35,9 @@ function complete(){
 
 // alerts on first hover of main page cards
 
-const cardHoverFEWD = document.getElementById("fewd");
-const cardHoverPersonal = document.getElementById("personal");
-const cardHoverNonprofits = document.getElementById("nonprofits");
+const cardHoverFEWD = document.getElementById("FEWD");
+const cardHoverPersonal = document.getElementById("Personal");
+const cardHoverNonprofits = document.getElementById("Nonprofits");
 
 function cardHoverAlertFEWD() {
     if (cardHoverFEWD.classList.contains('notify')) {

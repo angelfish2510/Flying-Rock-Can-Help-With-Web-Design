@@ -18,7 +18,7 @@
   animation: grow 8s ease-out backwards;
 }
 
-#fewd:hover .tinytrees {
+#FEWD:hover .tinytrees {
   animation: bounce 1s 0.5s;
 }
 
@@ -47,7 +47,7 @@
   animation-delay: 3s;
 }
 
-#personal:hover .rabbit-inner-ear {
+#Personal:hover .rabbit-inner-ear {
   animation: colorfade 7s linear infinite;
 }
 
@@ -75,7 +75,7 @@
   animation-delay: 5s;
 }
 
-#nonprofits:hover .earth-land {
+#Nonprofits:hover .earth-land {
   animation: rotate 15s linear infinite;
   transform-origin: 50% 50%;
 }
