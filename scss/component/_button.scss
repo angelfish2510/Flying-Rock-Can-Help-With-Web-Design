@@ -1,4 +1,6 @@
-.fewd-btn {
+.fewd-btn,
+.personalproj-btn,
+.nonprofits-btn  {
     background-color: #1A4314;
     color: #B2D2A4;
 
@@ -9,7 +11,9 @@
    
 }
 
-.fewd-btn:hover {
+.fewd-btn:hover,
+.personalproj-btn:hover,
+.nonprofits-btn:hover {
     background-color: #B2D2A4;
     color: #1A4314;
    
@@ -20,26 +24,6 @@
 }
 
 .btnhover {
-    background-color: #B2D2A4;
-    color: #1A4314;
-}
-
-.personalproj-btn {
-    background-color: #1A4314;
-    color: #B2D2A4;
-}
-
-.personalproj-btn:hover {
-    background-color: #B2D2A4;
-    color: #1A4314;
-}
-
-.nonprofits-btn {
-    background-color: #1A4314;
-    color: #B2D2A4;
-}
-
-.nonprofits-btn:hover {
     background-color: #B2D2A4;
     color: #1A4314;
 }
@@ -60,14 +44,43 @@
     }
 }
 
-.mainpage-btn {
-    // width: 30%;
-    // height: 22%;
-    overflow: hidden;
+// .mainpage-btn {
+//     // width: 30%;
+//     // height: 22%;
+//     overflow: hidden;
 
-    svg {
-        padding: 14px;
-        // max-width: 80%;
-        // max-height: 60%;
+//     svg {
+//         padding: 14px;
+//         margin: auto;
+//     }
+// }
+
+.mainpage-btn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    // justify-items: space-between;
+    
+    p {
+        justify-self: flex-end;
+        // min-height: 30%;
     }
+    }
+    
+.personalproj-btn,
+.fewd-btn,
+.nonprofits-btn {
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+    margin: 0px;
+    // border-radius: 50%;
 }
+
+.treesvg,
+.rabbitsvg,
+.smallworld {
+    overflow: hidden;
+}
+

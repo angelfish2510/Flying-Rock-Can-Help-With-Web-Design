@@ -486,45 +486,33 @@ span.smallfont {
     flex-direction: row;
   }
 }
-.fewd-btn {
+.fewd-btn,
+.personalproj-btn,
+.nonprofits-btn {
   background-color: #1A4314;
   color: #B2D2A4;
 }
-.fewd-btn a {
+.fewd-btn a,
+.personalproj-btn a,
+.nonprofits-btn a {
   text-decoration: none;
   color: #b1d2a3;
 }
 
-.fewd-btn:hover {
+.fewd-btn:hover,
+.personalproj-btn:hover,
+.nonprofits-btn:hover {
   background-color: #B2D2A4;
   color: #1A4314;
 }
-.fewd-btn:hover a {
+.fewd-btn:hover a,
+.personalproj-btn:hover a,
+.nonprofits-btn:hover a {
   text-decoration: none;
   color: #1A4314;
 }
 
 .btnhover {
-  background-color: #B2D2A4;
-  color: #1A4314;
-}
-
-.personalproj-btn {
-  background-color: #1A4314;
-  color: #B2D2A4;
-}
-
-.personalproj-btn:hover {
-  background-color: #B2D2A4;
-  color: #1A4314;
-}
-
-.nonprofits-btn {
-  background-color: #1A4314;
-  color: #B2D2A4;
-}
-
-.nonprofits-btn:hover {
   background-color: #B2D2A4;
   color: #1A4314;
 }
@@ -545,10 +533,28 @@ span.smallfont {
 }
 
 .mainpage-btn {
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
-.mainpage-btn svg {
-  padding: 14px;
+.mainpage-btn p {
+  justify-self: flex-end;
+}
+
+.personalproj-btn,
+.fewd-btn,
+.nonprofits-btn {
+  height: 100%;
+  width: 100%;
+  padding: 24px;
+  margin: 0px;
+}
+
+.treesvg,
+.rabbitsvg,
+.smallworld {
+  overflow: hidden;
 }
 
 .fewdgrid {
