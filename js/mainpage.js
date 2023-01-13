@@ -17,7 +17,7 @@ let timer = setInterval(beautifyHeader, 50);
 function beautifyHeader() {
     const span = hText.querySelectorAll('span')[char];
     span.classList.add('letterfade');
-    char++
+    char++;
     if (char > 12 && char < 26) {
         span.classList.add('smallfont');
     }
