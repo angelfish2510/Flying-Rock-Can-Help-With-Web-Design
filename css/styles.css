@@ -532,29 +532,23 @@ span.smallfont {
   min-height: 100%;
 }
 
-.mainpage-btn {
+.mainpage-btn .mainpage-btn {
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
+  padding-top: 20px;
+  margin: 10px 0;
 }
 .mainpage-btn p {
   justify-self: flex-end;
+  padding-top: 50px;
+  text-align: center;
 }
-
-.personalproj-btn,
-.fewd-btn,
-.nonprofits-btn {
-  height: 100%;
-  width: 100%;
-  padding: 24px;
-  margin: 0px;
-}
-
-.treesvg,
-.rabbitsvg,
-.smallworld {
-  overflow: hidden;
+.mainpage-btn svg {
+  max-width: 100px;
+  max-height: 100px;
+  margin: auto;
 }
 
 .fewdgrid {

@@ -44,43 +44,33 @@
     }
 }
 
-// .mainpage-btn {
-//     // width: 30%;
-//     // height: 22%;
-//     overflow: hidden;
-
-//     svg {
-//         padding: 14px;
-//         margin: auto;
-//     }
-// }
-
+.mainpage-btn {
 .mainpage-btn {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
-    // justify-items: space-between;
-    
-    p {
-        justify-self: flex-end;
-        // min-height: 30%;
+    padding-top: 20px;
+    margin: 10px 0;
     }
-    }
-    
-.personalproj-btn,
-.fewd-btn,
-.nonprofits-btn {
-    height: 100%;
-    width: 100%;
-    padding: 24px;
-    margin: 0px;
-    // border-radius: 50%;
-}
 
-.treesvg,
-.rabbitsvg,
-.smallworld {
-    overflow: hidden;
+p {
+    justify-self: flex-end;
+    padding-top: 50px;
+    text-align: center;
+    }
+
+svg {
+    max-width: 100px;
+    max-height: 100px;
+    margin: auto;
+    }
 }
+    
+
+// .treesvg,
+// .rabbitsvg,
+// .smallworld {
+//     overflow: hidden;
+// }
 
