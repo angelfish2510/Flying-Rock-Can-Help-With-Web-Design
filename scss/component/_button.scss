@@ -45,19 +45,31 @@
 }
 
 .mainpage-btn {
-.mainpage-btn {
+
+    
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
     padding-top: 20px;
     margin: 10px 0;
-    }
+
+    @media (min-width: 768px) {
+        padding: 20px 10px 0;
+        }
+
 
 p {
     justify-self: flex-end;
-    padding-top: 50px;
+    padding-top: 25px;
     text-align: center;
+    font-size: 0.85rem;
+    margin-top: auto;
+
+    @media (min-width: 768px) {
+        font-size: 1.3em;
+        line-height: 1.3;
+      }
     }
 
 svg {
