@@ -112,3 +112,24 @@
 }
 }
 
+
+// social bounce
+
+@keyframes longbounce {
+    50% {
+        transform: scale(1.9);
+    }
+}
+
+.footer-contact a:hover,
+.footer-social a:hover {
+
+    .envelope,
+    .tele,
+    .linkedin,
+    .instagram,
+    .github,
+    .twitter {
+    animation: longbounce 2s .4s;
+}
+}

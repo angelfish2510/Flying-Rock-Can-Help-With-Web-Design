@@ -80,6 +80,26 @@
   transform-origin: 50% 50%;
 }
 
+@keyframes longbounce {
+  50% {
+    transform: scale(1.9);
+  }
+}
+.footer-contact a:hover .envelope,
+.footer-contact a:hover .tele,
+.footer-contact a:hover .linkedin,
+.footer-contact a:hover .instagram,
+.footer-contact a:hover .github,
+.footer-contact a:hover .twitter,
+.footer-social a:hover .envelope,
+.footer-social a:hover .tele,
+.footer-social a:hover .linkedin,
+.footer-social a:hover .instagram,
+.footer-social a:hover .github,
+.footer-social a:hover .twitter {
+  animation: longbounce 2s 0.4s;
+}
+
 * {
   font-family: "Lato", sans-serif;
 }
@@ -756,6 +776,19 @@ span.smallfont {
 }
 .modal-backdrop {
   z-index: 10;
+}
+
+.modal-content {
+  background-color: #d9d9d9;
+}
+
+.modal-header,
+.modal-body a {
+  color: #1a4314;
+}
+.modal-header:hover,
+.modal-body a:hover {
+  color: #B2D2A4;
 }
 
 /*# sourceMappingURL=styles.css.map */

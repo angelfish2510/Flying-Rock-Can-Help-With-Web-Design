@@ -57,17 +57,12 @@
 .flip-box {
     transform-style: preserve-3d;
     perspective: 1000px;
-    // cursor: pointer;
     margin: auto;
     padding: 2rem;
-    // display: flex;
-    // justify-content: stretch;
 }
 
 .flip-box-front,
 .flip-box-back {
-    // background-size: cover;
-    // background-position: center;
     border-radius: 8px;
     min-height: 475px;
     min-width: 100%;
@@ -114,13 +109,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    // width: 100%;
     transform: rotateY(180deg);
     transform-style: preserve-3d;
-    // text-align: center;
     height: 100%; 
-    // margin-top: -100px;
-    // margin: auto;
 }
 
 .flip-box:hover .flip-box-back {
