@@ -1,12 +1,3 @@
-
-// const project2 = document.getElementById("project2")
-
-// project2.addEventListener("click", flipCard);
-
-// function flipCard() {
-//   project2.classList.toggle("flipcard");
-// }
-
 // header text animation and shrink less significant text
 
 const hText = document.querySelector('.headerTextAnimate');
@@ -42,8 +33,7 @@ function complete(){
 }
 
 
-// border change on hover? click? for FEWD page
-// use "this" as part of event listener? 
+// border change on click for FEWD page
 
 
 function borderChange() {
