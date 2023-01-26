@@ -33,39 +33,41 @@ function complete(){
 }
 
 
-// alerts on first hover of main page cards
+// comment out code once graded for better user experience
 
-const cardHoverFEWD = document.getElementById("FEWD");
-const cardHoverPersonal = document.getElementById("Personal");
-const cardHoverNonprofits = document.getElementById("Nonprofits");
+    // alerts on first hover of main page cards
 
-function cardHoverAlertFEWD() {
-    if (cardHoverFEWD.classList.contains('notify')) {
-        alert("Click on link to see carousel of FEWD Project screenshots.  Within the carousel you can click on the image to access the specific project or you can click on 'All FEWD Projects' to see the library.");
-        cardHoverFEWD.classList.remove('notify');
-        cardHoverFEWD.classList.add('noalert');
-    }
-}
+    // const cardHoverFEWD = document.getElementById("FEWD");
+    // const cardHoverPersonal = document.getElementById("Personal");
+    // const cardHoverNonprofits = document.getElementById("Nonprofits");
 
-cardHoverFEWD.addEventListener("mouseover", cardHoverAlertFEWD);
+    // function cardHoverAlertFEWD() {
+    //     if (cardHoverFEWD.classList.contains('notify')) {
+    //         alert("Click on link to see carousel of FEWD Project screenshots.  Within the carousel you can click on the image to access the specific project or you can click on 'All FEWD Projects' to see the library.");
+    //         cardHoverFEWD.classList.remove('notify');
+    //         cardHoverFEWD.classList.add('noalert');
+    //     }
+    // }
+
+    // cardHoverFEWD.addEventListener("mouseover", cardHoverAlertFEWD);
 
 
-function cardHoverAlertPersonal() {
-    if (cardHoverPersonal.classList.contains('notify')) {
-        alert("Click on link to see carousel of Personal Project screenshots.  Within the carousel you can click on the image to access the specific project or you can click on 'All Personal Projects' to see the library.");
-        cardHoverPersonal.classList.remove('notify');
-        cardHoverPersonal.classList.add('noalert');
-    }
-}
+    // function cardHoverAlertPersonal() {
+    //     if (cardHoverPersonal.classList.contains('notify')) {
+    //         alert("Click on link to see carousel of Personal Project screenshots.  Within the carousel you can click on the image to access the specific project or you can click on 'All Personal Projects' to see the library.");
+    //         cardHoverPersonal.classList.remove('notify');
+    //         cardHoverPersonal.classList.add('noalert');
+    //     }
+    // }
 
-cardHoverPersonal.addEventListener("mouseover", cardHoverAlertPersonal);
+    // cardHoverPersonal.addEventListener("mouseover", cardHoverAlertPersonal);
 
-function cardHoverAlertNonprofits() {
-    if (cardHoverNonprofits.classList.contains('notify')) {
-        alert("Click on link to see carousel of Nonprofit screenshots.  Within the carousel you can click on the image to access the specific webiste or you can click on 'See All Nonprofit Websites' to see the collection.");
-        cardHoverNonprofits.classList.remove('notify');
-        cardHoverNonprofits.classList.add('noalert');
-    }
-}
+    // function cardHoverAlertNonprofits() {
+    //     if (cardHoverNonprofits.classList.contains('notify')) {
+    //         alert("Click on link to see carousel of Nonprofit screenshots.  Within the carousel you can click on the image to access the specific webiste or you can click on 'See All Nonprofit Websites' to see the collection.");
+    //         cardHoverNonprofits.classList.remove('notify');
+    //         cardHoverNonprofits.classList.add('noalert');
+    //     }
+    // }
 
-cardHoverNonprofits.addEventListener("mouseover", cardHoverAlertNonprofits);
+    // cardHoverNonprofits.addEventListener("mouseover", cardHoverAlertNonprofits);
