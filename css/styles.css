@@ -87,12 +87,16 @@
 }
 .footer-contact a:hover .envelope,
 .footer-contact a:hover .tele,
+.footer-contact a:hover .cv,
+.footer-contact a:hover .treehouse,
 .footer-contact a:hover .linkedin,
 .footer-contact a:hover .instagram,
 .footer-contact a:hover .github,
 .footer-contact a:hover .twitter,
 .footer-social a:hover .envelope,
 .footer-social a:hover .tele,
+.footer-social a:hover .cv,
+.footer-social a:hover .treehouse,
 .footer-social a:hover .linkedin,
 .footer-social a:hover .instagram,
 .footer-social a:hover .github,
@@ -760,14 +764,6 @@ span.smallfont {
 .footer-social,
 .footer-top {
   padding: 8px;
-}
-
-.cv {
-  margin-bottom: -13px;
-}
-
-.envelope {
-  margin-bottom: -17px;
 }
 
 @media (min-width: 768px) {
